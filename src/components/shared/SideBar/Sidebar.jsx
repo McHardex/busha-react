@@ -4,7 +4,7 @@ import balances from "../../../images/balances.svg";
 import accountPayment from "../../../images/accountPayment.png";
 import "./sidebar.scss";
 
-const Sidebar = () => {
+const Sidebar = ({ active }) => {
   return (
     <div className="sidebar-container">
       <div className="sidebar-header">
@@ -13,27 +13,27 @@ const Sidebar = () => {
         <i className="fas fa-angle-down"></i>
       </div>
       <div className="sidebar-items-wrapper">
-        <div className="items">
+        <div className={active === "dashboard" ? "active" : "items"}>
           <img src={dashboard} alt="dashboard" />
           <span className="side-nav-title">Dashboard</span>
         </div>
-        <div className="items">
-          <img src={balances} alt="dashboard" />
+        <div className={active === "balance" ? "active" : "items"}>
+          <i className="fas fa-address-book icon" />
           <span className="side-nav-title">Balances</span>
         </div>
-        <div className="items">
+        <div className={active === "payments" ? "active" : "items"}>
           <img src={balances} alt="dashboard" />
           <span className="side-nav-title">Payments</span>
         </div>
-        <div className="items">
-          <img src={balances} alt="dashboard" />
+        <div className={active === "transfers" ? "active" : "items"}>
+          <i className="fas fa-address-book icon" />
           <span className="side-nav-title">Tranfers</span>
         </div>
-        <div className="items">
+        <div className={active === "developers" ? "active" : "items"}>
           <img src={balances} alt="dashboard" />
           <span className="side-nav-title">Developers</span>
         </div>
-        <div className="items">
+        <div className={active === "settings" ? "active" : "items"}>
           <img src={balances} alt="dashboard" />
           <span className="side-nav-title">Settings</span>
         </div>

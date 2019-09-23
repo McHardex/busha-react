@@ -1,5 +1,4 @@
 import React from "react";
-import dashboard from "../../images/dashboard.svg";
 import "./account-status.scss";
 
 const AccountStatus = () => {
@@ -13,8 +12,8 @@ const AccountStatus = () => {
         </tr>
         <tr className="rows">
           <td>
-            <img src={dashboard} className="name-icon" alt="name-icon" />
-            Bitcoin
+            <i className="fab fa-bitcoin name-icon" />
+            <span>Bitcoin</span>
           </td>
           <td>
             <p className="currency-pair">10.12345678 BTC</p>
@@ -27,8 +26,8 @@ const AccountStatus = () => {
         </tr>
         <tr className="rows">
           <td>
-            <img src={dashboard} className="name-icon" alt="name-icon" />
-            Ethereum
+            <i className="fab fa-ethereum name-icon" />
+            <span>Ethereum</span>
           </td>
           <td>
             <p className="currency-pair">10.12345678 BTC</p>
@@ -41,8 +40,8 @@ const AccountStatus = () => {
         </tr>
         <tr className="rows">
           <td>
-            <img src={dashboard} className="name-icon" alt="name-icon" />
-            Naira
+            <i className="fab fa-ethereum name-icon" />
+            <span>Naira</span>
           </td>
           <td>
             <p className="currency-pair">NGN 800,000</p>

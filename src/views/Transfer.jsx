@@ -5,10 +5,10 @@ import Sidebar from "../components/shared/SideBar/Sidebar";
 import Header from "../components/shared/Header/Header";
 import Transfers from "../components/Transfers/Transfers";
 
-const Page2 = () => {
+const Transfer = () => {
   return (
     <Layout>
-      <Sidebar />
+      <Sidebar active="transfers" />
       <div className="body">
         <Header title="Tranfers" />
         <Account>
@@ -19,4 +19,4 @@ const Page2 = () => {
   );
 };
 
-export default Page2;
+export default Transfer;
