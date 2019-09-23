@@ -37,7 +37,7 @@ List of libraries, tools, etc needed (e.g. npm, yarn, etc)
 
 ## Prototype
 
-The application is staged [here](https://bucha-react.netlify.com/)
+The application is staged [here](https://busha-react.netlify.com/)
 
 ## Deployment
 
