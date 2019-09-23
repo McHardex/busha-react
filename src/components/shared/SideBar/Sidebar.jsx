@@ -1,7 +1,7 @@
 import React from "react";
-import dashboard from "../../images/dashboard.svg";
-import balances from "../../images/balances.svg";
-import accountPayment from "../../images/accountPayment.png";
+import dashboard from "../../../images/dashboard.svg";
+import balances from "../../../images/balances.svg";
+import accountPayment from "../../../images/accountPayment.png";
 import "./sidebar.scss";
 
 const Sidebar = () => {

@@ -1,0 +1,70 @@
+.transfer-cont-wrap {
+  background-color: #ffffff;
+  border: 1px solid #dfe1e6;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(15, 15, 15, 0.1),
+    0 0 0 1px rgba(15, 15, 15, 0.06);
+  width: 100%;
+  height: 440px;
+  position: relative;
+
+  .button-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 15px 0;
+
+    .new-transfer-button {
+      margin-right: 20px;
+      background-color: #67c462;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 3px;
+      padding: 10px 20px;
+      color: #fff;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-size: 14px;
+
+      i.fas.fa-angle-down {
+        font-size: 11px;
+        margin-left: 5px;
+      }
+    }
+  }
+  .transfer-container {
+    border-radius: 0;
+    background: #f9f9fa;
+    box-shadow: none;
+    border-right: none;
+    border-left: none;
+
+    tr {
+      border: none;
+    }
+  }
+
+  .no-transfers {
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+
+    h3 {
+      color: #42526e;
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: 0.18px;
+      text-align: center;
+    }
+
+    span {
+      color: #42526e;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.12px;
+      text-align: center;
+    }
+  }
+}
