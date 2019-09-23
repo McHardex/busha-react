@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Layout from '../hoc/Layout';
+import Sidebar from '../shared/SideBar/Sidebar';
 
-export default function Page1() {
+const Page1 = () => {
   return (
-    <div>
-      <p>this is the first page</p>
-    </div>
+    <Layout>
+      <Sidebar />
+    </Layout>
   )
 }
+
+export default Page1;

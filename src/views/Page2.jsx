@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Layout from '../hoc/Layout';
 
-export default function Page2() {
+const Page2 = () => {
   return (
-    <div>
-      <p>this is the second page</p>
-    </div>
+    <Layout>
+      <p>this is the first page</p>
+    </Layout>
   )
 }
+
+export default Page2;

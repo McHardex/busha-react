@@ -1,0 +1,104 @@
+.sidebar-container {
+  max-width: 250px;
+  height: 100vh;
+  border-right: 1px solid #8993A4;
+  position: relative;
+
+  .sidebar-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 0 0 16px;
+
+    .sidebar-rec-logo {
+      background-color: #FFFFFF;
+      border-radius: 2px;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.07), 0 2px 5px 0 rgba(60, 66, 87, 0.1);
+      width: 24px;
+      height: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .business-name {
+      color: #172B4D;
+      font-family: CharlieDisplay;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 0.08px;
+      line-height: 19px;
+      text-align: left;
+      margin-left: 9px;
+    }
+
+    i.fas.fa-angle-down {
+      font-size: 11px;
+      margin-left: 5px;
+      color: #8993A4;
+    }
+  }
+
+  .sidebar-items-wrapper {
+    padding-left: 20px;
+    text-align: left;
+    margin-top: 90px;
+
+    .items {
+      display: flex;
+      align-items: center;
+      margin: 19px 0;
+
+      img {
+        margin-right: 14px;
+      }
+
+      .side-nav-title {
+        color: #42526E;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.13px;
+        line-height: 17px;
+        text-align: left;
+      }
+    }
+
+    .items:hover {
+      img, .side-nav-title {
+        color: #529C4E;
+      }
+    }
+  }
+
+  .account-payment {
+    background-color: rgba(103, 196, 98, 0.12);
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 rgba(15, 15, 15, 0.1), inset 0 0 0 1px rgba(103, 196, 98, 0.3);
+    width: 196px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 37px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    img {
+      width: 15px;
+      height: auto;
+    }
+
+    .acc-payment-title {
+      color: #67C462;
+      font-family: CharlieDisplay;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.08px;
+      line-height: 17px;
+      text-align: center;
+      margin-left: -25px;
+    }
+  }
+}
