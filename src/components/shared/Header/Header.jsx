@@ -10,7 +10,7 @@ const Header = ({title}) => {
         </div>
         <div className="navigations">
           <div className="test-mode">
-            <Checkbox toggle checked />
+            <Checkbox toggle defaultChecked={true} />
             <span>Test Mode</span>
           </div>
           <div className="notifications">
