@@ -1,4 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f07a2e84-0b2d-43dd-9591-5388c448d033/deploy-status)](https://app.netlify.com/sites/bucha-react/deploys)
+
 # Bucha mockup assessment
+
 
 ## Description
 
@@ -28,14 +31,14 @@ List of libraries, tools, etc needed (e.g. npm, yarn, etc)
 ### Getting Started
 
 - Clone the repo - `https://github.com/McHardex/busha-react.git`
-- Change into the project directory - `bucha-react`
+- Change into the project directory - `busha-react`
 - Install project dependencies run `npm install`
 - Run the server `npm start` or `yarn start`
 
 ## Prototype
 
-The application is staged [here](https://crypro-order-book.netlify.com/)
+The application is staged [here](https://bucha-react.netlify.com/)
 
 ## Deployment
 
-This is a one-page application so Deployment in this project happens via Netlify when a PR has been successfully merged to master.
+Netlify
