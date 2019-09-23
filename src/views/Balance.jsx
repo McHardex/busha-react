@@ -5,10 +5,10 @@ import AccountStatus from "../components/AccountStatus/AccountStatus";
 import Sidebar from "../components/shared/SideBar/Sidebar";
 import Header from "../components/shared/Header/Header";
 
-const Page1 = () => {
+const Balance = () => {
   return (
     <Layout>
-      <Sidebar />
+      <Sidebar active="balance" />
       <div className="body">
         <Header title="Balances" />
         <Account>
@@ -19,4 +19,4 @@ const Page1 = () => {
   );
 };
 
-export default Page1;
+export default Balance;
