@@ -2,14 +2,10 @@
 
 # Bucha mockup assessment
 
-
-## Description
-
 ### mock styling with react
 
 ## Table of Contents
 
-- [Description](#description)
 - [Setup](#setup)
   - [Dependencies](#dependencies)
   - [Getting Started](#getting-started)
