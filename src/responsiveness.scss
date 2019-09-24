@@ -1,0 +1,96 @@
+@media only screen and (max-width: 768px) {
+  .home > h1 {
+    text-align: center;
+  }
+
+  .home > .links > a {
+    padding: 10px;
+  }
+
+  .layout {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .body {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .header {
+    width: 95%;
+    margin: auto;
+    position: absolute;
+    top: 10px;
+    padding: 5px;
+    left: 0;
+    right: 0;
+  }
+
+  .header .header-title {
+    width: fit-content;
+  }
+
+  .header .header-title h2 {
+    font-size: 18px;
+  }
+
+  .navigations {
+    width: 75% !important;
+    justify-content: space-evenly !important;
+  }
+
+  .header .user-details {
+    display: none;
+  }
+
+  .header .test-mode span, .header .user-details .username {
+    font-size: 11px;
+  }
+
+  table, .transfer-cont-wrap {
+    width: 97%;
+    margin: 10px auto;
+  }
+
+  table > th {
+    font-size: 12px;
+  }
+
+  table .currency-pair, table .currency-pair2, table td:first-child {
+    font-size: 12px;
+  }
+
+  .sidebar-container {
+    width: 100%;
+    height: fit-content;
+    margin-top: 12%;
+    border: none;
+  }
+
+  .sidebar-container > .sidebar-items-wrapper > .items > .side-nav-title {
+    font-size: 12px;
+  }
+
+  .sidebar-container > .active > .side-nav-title {
+    font-size: 12px;
+  }
+
+  .sidebar-container > .sidebar-items-wrapper {
+    margin-top: 20px;
+  }
+
+  .sidebar-container > .account-payment {
+    bottom: -12%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .sidebar-container {
+    width: 25%;
+  }
+  .navigations {
+    width: 75% !important;
+    justify-content: space-evenly !important;
+  }
+}
